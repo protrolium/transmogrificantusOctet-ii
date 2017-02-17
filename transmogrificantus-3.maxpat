@@ -60,7 +60,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 51.490387, 64.958435, 456.259613, 27.0 ],
-					"presentation_rect" : [ 182.0, 115.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "delay-chain with reverb // prototype version 3 // Max version 7.3.1"
 				}
@@ -1861,53 +1860,7 @@
 				"box" : 				{
 					"clipheight" : 79.729218,
 					"data" : 					{
-						"clips" : [ 							{
-								"filename" : "/Users/sophrosyne/Documents/MUSIC/TRANSMOGRIFICANTUS-OCTET/Gavin Gamboa - Transmogrificantus Octet - 01 Sinfonia.wav",
-								"filekind" : "audiofile",
-								"loop" : 0,
-								"content_state" : 								{
-									"mode" : [ "basic" ],
-									"play" : [ 0 ],
-									"formant" : [ 1.0 ],
-									"speed" : [ 0.2 ],
-									"followglobaltempo" : [ 0 ],
-									"basictuning" : [ 440 ],
-									"slurtime" : [ 0.0 ],
-									"originaltempo" : [ 120.0 ],
-									"originallength" : [ 0.0, "ticks" ],
-									"formantcorrection" : [ 0 ],
-									"originallengthms" : [ 0.0 ],
-									"pitchcorrection" : [ 0 ],
-									"quality" : [ "basic" ],
-									"pitchshift" : [ 1.0 ],
-									"timestretch" : [ 1 ]
-								}
-
-							}
-, 							{
-								"filename" : "/Users/sophrosyne/Documents/MUSIC/TRANSMOGRIFICANTUS-OCTET/Gavin Gamboa - Transmogrificantus Octet - 02 Elegy — Fantasie — Coda.wav",
-								"filekind" : "audiofile",
-								"loop" : 0,
-								"content_state" : 								{
-									"mode" : [ "basic" ],
-									"play" : [ 0 ],
-									"formant" : [ 1.0 ],
-									"speed" : [ 0.25 ],
-									"followglobaltempo" : [ 0 ],
-									"basictuning" : [ 440 ],
-									"slurtime" : [ 0.0 ],
-									"originaltempo" : [ 120.0 ],
-									"originallength" : [ 0.0, "ticks" ],
-									"formantcorrection" : [ 0 ],
-									"originallengthms" : [ 0.0 ],
-									"pitchcorrection" : [ 0 ],
-									"quality" : [ "basic" ],
-									"pitchshift" : [ 1.0 ],
-									"timestretch" : [ 1 ]
-								}
-
-							}
- ]
+						"clips" : [  ]
 					}
 ,
 					"id" : "obj-4",
@@ -1915,7 +1868,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
-					"patching_rect" : [ 533.75, 84.5, 646.25, 161.458435 ],
+					"patching_rect" : [ 533.75, 83.5, 646.25, 161.458435 ],
 					"style" : ""
 				}
 
@@ -3404,27 +3357,15 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-65::obj-77" : [ "getsamplelength", "getsamplelength", 0 ],
 			"obj-65::obj-52" : [ "Level", "Level", 0 ],
 			"obj-65::obj-7" : [ "AutoName", "AutoName", 0 ],
 			"obj-65::obj-74" : [ "Channels", "Channels", 0 ],
-			"obj-65::obj-76" : [ "Record", "Record", 0 ],
 			"obj-65::obj-73" : [ "Format", "Format", 0 ],
-			"obj-65::obj-77" : [ "getsamplelength", "getsamplelength", 0 ]
+			"obj-65::obj-76" : [ "Record", "Record", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "Gavin Gamboa - Transmogrificantus Octet - 01 Sinfonia.wav",
-				"bootpath" : "~/Documents/MUSIC/TRANSMOGRIFICANTUS-OCTET",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Gavin Gamboa - Transmogrificantus Octet - 02 Elegy — Fantasie — Coda.wav",
-				"bootpath" : "~/Documents/MUSIC/TRANSMOGRIFICANTUS-OCTET",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "yafr2.maxpat",
 				"bootpath" : "./Max.app/Contents/Resources/Examples/effects/reverb/lib",
 				"type" : "JSON",
